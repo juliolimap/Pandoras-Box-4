@@ -47,16 +47,7 @@ fe.plugin[ "ResFix" ] <- ResFix();
 fe.layout.width=800;
 fe.layout.height=600;
 fe.add_image( "art/bg.png", 0, 0 );
-//local bluebg = fe.add_artwork("bluebg.png",23, 85, 260, 345 );
-
-//local flyer = fe.add_artwork("flyer",23, 85, 260, 345 );
-//flyer.alpha = 40;
-//flyer.trigger = Transition.EndNavigation;
-
-
-
-//t = fe.add_artwork( "marquee", 337, 345, 262, 75 );
-//t.trigger = Transition.EndNavigation;
+ 
 
 
 fe.load_module("shuffle");
@@ -240,7 +231,7 @@ free.align = Align.Centre
 
 
 
-local t = fe.add_artwork( "snap", 404, 115, 355, 276 );
+local t = fe.add_artwork( "video", 404, 115, 355, 276 );
 
 
 
